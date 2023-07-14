@@ -11,9 +11,8 @@ import isAuthenticated from "./middleware/isAuthenticated.js";
 import isAdmin from "./middleware/isAdmin.js";
 import checkStatus from "./controller/health/checkStatus.js";
 import downloadUserInformation from "./controller/user/downloadUserInfo.js";
-
-import addToWatchlist from "./controller/item/addwatchlist.js";
-import removeFromWatchlist from "./controller/item/removeWatchlist.js";
+import addToWatchlist from "./controller/item/addToWatchlist.js";
+import removeFromWatchlist from "./controller/item/removeFromWatchlist.js";
 
 const app = express();
 app.use(express.json());
